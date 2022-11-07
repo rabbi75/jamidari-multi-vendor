@@ -1,0 +1,124 @@
+.BlogSection{
+    padding-top: 20px;
+}
+
+@media screen and (min-width: 1100px) {
+    .BlogSection{
+        padding-top: 35px;
+    } 
+}
+
+.AboutUsLeft{
+    color: black !important;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.AboutUsPerDiv{
+    margin-bottom: 1rem;
+}
+
+.RightPerDiv{
+    margin-bottom: 1.4rem;
+}
+
+.AboutUsPerDiv h5{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: var(--logoColor-1);
+    font-weight: bold;
+    font-size: 1.45rem;
+}
+
+.AboutUsLeft a:hover{
+    color: var(--logoColor-2);
+}
+
+.AboutUsLeft div p a{
+    font-weight: bold;
+}
+
+.AboutUsLeft img{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 1.2rem;
+}
+
+.AboutUsRight{
+    color: black;
+}
+
+.AboutUsRight h5{
+    color: black;
+    text-align: center;
+    padding: 10px;
+    background: #ff863f;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: .7rem;
+    text-transform: uppercase;
+}
+
+.AboutUSLi{
+    display: flex;
+    align-items: center;
+    background-color: rgb(226 226 226);
+    font: 20px;
+    border-radius: 6px;
+}
+
+.AboutUSLi:not(:last-child){
+    margin-bottom: .7rem;
+}
+
+.AboutUsRight .IconDivAboutus{
+    background-color: var(--logoColor-1);
+    margin-right: .7rem;
+    color: white !important;
+    padding: 5px 6px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px 0 0 5px;
+}
+
+.AboutUsRight .IconDivAboutus i{
+    color: white !important;
+}
+
+.AboutUsRight .LinkDiv{
+    font-size: 20px;
+    padding: 5px 0px;
+}
+
+.AboutUsRight .LinkDiv a{
+    color: var(--logoColor-1);
+}
+
+.AboutUsRight .LinkDiv a:hover{
+    color: var(--logoColor-2);
+}
+
+
+.LinkFrist{
+    padding: 6px 10px !important;
+    font-size: 17px !important;
+}
+
+
+/*  */
+.TermsAndCond{
+    font-size: 15px;
+}
+
+:root {
+    --logoColor-1: #2c66af;
+    --logoColor-2: #ff863f;
+    --servocehover: #e79855;
+    --navColor: rgb(216, 216, 216);
+    --navIconColor: red;
+    --navmidbg: #75b535;
+    --TopNev: #3c516a;
+    --DestopCatagori: #3e6a10;
+}

@@ -1,0 +1,136 @@
+.ContactUSection{
+    padding-top: 1.5rem;
+    color: rgb(0, 0, 0);
+}
+
+.ContactInfo{
+   padding: 10px;
+}
+
+.ContactInfo ul{
+   border: 2px solid var(--logoColor-2);
+}
+
+.ContactUSection h1{
+    text-align: center;
+    color: var(--logoColor-2);
+    text-transform: capitalize;
+}
+
+.ContactUSection .para{
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--logoColor-1);
+}
+
+.Contactli{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.Contactli:not(:last-child){
+    border-bottom: 2px solid  var(--logoColor-2);
+}
+
+.IconContact{
+    margin-right: .5rem;
+    font-size: 40px;
+    color: var(--logoColor-1);
+}
+
+.TextContact{
+    width: 80%;
+}
+
+.TextContact P{
+    margin: 0%;
+}
+
+.MapAndContact .Map{
+    padding: 10px;
+    /* border: 2px solid var(--logoColor-2); */
+}
+
+.mapouter{
+    padding: 10px;
+    border: 2px solid var(--logoColor-2);
+
+}
+
+.gmap_iframe,
+.gmap_canvas,
+.mapouter{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.gmap_iframe{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.contactFrom{
+    text-align: center;
+    padding: 1rem 0; 
+    background-color: var(--logoColor-1);
+    color: white;
+    margin-bottom: 0;
+    margin-bottom: -1rem;
+}
+
+.contactFrom label,
+.contactFrom input{
+    display: block;
+    text-align: left !important;
+}
+
+.FormDiv{
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+.contactFrom input{
+    border: 1px solid black;
+}
+
+.FormDiv textarea{
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.FormDiv textarea:focus{
+    box-shadow: 0 0 10px var(--logoColor-1);
+    border: 1px solid none;
+}
+
+.FormDiv .SubmitBtn{
+    padding: 11px 32px;
+    background-color: var(--logoColor-2);
+    outline: 0;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    margin: auto;
+    border-radius: 7px;
+    border: 2px solid transparent;
+}
+
+.FormDiv .SubmitBtn:hover{
+    border: 2px solid var(--logoColor-2);
+    background-color: var(--logoColor-1);
+}
+
+
+:root {
+    --logoColor-1: #2c66af;
+    --logoColor-2: #ff863f;
+    --servocehover: #e79855;
+    --navColor: rgb(216, 216, 216);
+    --navIconColor: red;
+    --navmidbg: #75b535;
+    --TopNev: #3c516a;
+    --DestopCatagori: #3e6a10;
+}
